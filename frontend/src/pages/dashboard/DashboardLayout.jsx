@@ -191,7 +191,7 @@ const DashboardLayout = () => {
             <span className="sr-only">User Menu</span>
             <div className="hidden md:flex md:flex-col md:items-end md:leading-tight">
               <span className="font-semibold">{username}</span>
-              <span className="text-sm text-gray-600">role</span>
+              <span className="text-sm text-gray-600">admin</span>
             </div>
             <span className="h-12 w-12 ml-2 sm:ml-3 mr-2 bg-gray-100 rounded-full overflow-hidden">
               <img src="https://cdn-icons-png.flaticon.com/512/219/219986.png" alt="" className="h-full w-full object-cover"/>

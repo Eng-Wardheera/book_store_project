@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require("cors");
 const app = express()
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 
 // getting-started.js 
 const mongoose = require('mongoose');
@@ -12,7 +12,7 @@ require('dotenv').config()
 // middleware
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:4000'],
+    origin: ['http://localhost:5173'],
     credentials: true
 }))
 
